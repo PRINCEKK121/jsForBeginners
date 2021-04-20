@@ -73,11 +73,15 @@ input {
 #filterResults {
   list-style: none;
   padding: 0;
-  margin: 0;
+  margin: 0;`
+
 }
 
 #filterResults li {
   margin-bottom: 1rem;
+  border: 1px solid red;
+  text-align: center;
+  font-size: 1.5rem;
 }
 
 @media (max-width: 480px) {
@@ -110,5 +114,9 @@ input {
   #button {
     background-color: #59981A;
     padding: 1rem 1rem;
+  }
+
+  #filterResults {
+      font-size: 1.2rem;
   }
 }
