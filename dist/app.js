@@ -20,7 +20,7 @@ const calculate = () => {
     number <= 0 || number === '' || dob === '' || ageInAYear === '';
 
   if (isValidEntries) {
-    alert('Please make sure all enterires are valid!');
+    alert('Please make sure all enteries are valid!');
     return;
   }
 
