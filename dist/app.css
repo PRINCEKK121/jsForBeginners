@@ -5,7 +5,6 @@
 * {
   box-sizing: border-box;
   font-family: Arial, Helvetica, sans-serif;
-  font-size: 1.6rem;
 }
 
 body {
@@ -22,14 +21,14 @@ form {
 #number {
   margin-left: 11rem;
   height: 3rem;
-  width: 25rem;
+  width: 70%;
   padding: 0 1rem;
 }
 
 #dateOfBirth,
 #ageAtDate {
   height: 3rem;
-  width: 25rem;
+  width: 70%;
   padding: 0 1rem;
 }
 
@@ -38,7 +37,26 @@ form {
 }
 
 #button {
-  height: 3rem;
+  border: none;
+  font-size: 1.5rem;
+  color: #fff;
+  background: #81B622;
+  cursor: pointer;
+  padding: 1.4rem 8rem;
+  display: inline-block;
+  margin: 0rem 3rem;
+  text-transform: uppercase;
+  letter-spacing: 0.1rem;
+  font-weight: 400;
+  outline: none;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+#button:hover {
+  background-color: #59981A;
+  color: #fff;
 }
 
 label {
@@ -46,7 +64,9 @@ label {
 }
 
 input {
+  border: 0.1rem solid #59981A;
   margin-bottom: 1.5rem;
+  outline: none;
 }
 
 #year {
@@ -66,6 +86,33 @@ input {
 
 @media (max-width: 480px) {
   label {
-    font-size: 1.4rem;
+    font-size: 1.9rem;
+  }
+
+  div.container {
+    padding: 0px 0.5rem;
+    width: 95%;
+    margin: 0 auto;
+  }
+
+  label input {
+    display: block;
+  }
+
+  #number,
+  #dateOfBirth,
+  #ageAtDate {
+    width: 100%;
+    margin-top: 0.6rem;
+  }
+
+  #number,
+  #dateOfBirth {
+    margin-left: 0rem;
+  }
+
+  #button {
+    background-color: #59981A;
+    padding: 1rem 1rem;
   }
 }

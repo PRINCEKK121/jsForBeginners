@@ -9,27 +9,29 @@
     <link rel="stylesheet" href="app.css" />
   </head>
   <body>
-    <form>
-      <label>
-        Age
-        <input
-          type="number"
-          name="number"
-          id="number"
-          placeholder="Type your age..."
-        />
-      </label>
-      <label>
-        Date of Birth
-        <input type="date" name="dateOfBirth" id="dateOfBirth" />
-      </label>
-      <label>
-        Age at the date of
-        <input type="date" name="ageAtDate" id="ageAtDate" />
-      </label>
-      <input type="button" value="Find" id="button" />
-      <ul id="filterResults"></ul>
-    </form>
+    <div class="container">
+      <form>
+        <label>
+          Age
+          <input
+            type="number"
+            name="number"
+            id="number"
+            placeholder="Type your age..."
+          />
+        </label>
+        <label>
+          Date of Birth
+          <input type="date" name="dateOfBirth" id="dateOfBirth" />
+        </label>
+        <label>
+          Age at the date of
+          <input type="date" name="ageAtDate" id="ageAtDate" />
+        </label>
+        <input type="button" value="Find" id="button" />
+        <ul id="filterResults"></ul>
+      </form>
+    </div>
 
     <script src="app.js"></script>
   </body>
