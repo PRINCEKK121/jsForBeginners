@@ -63,3 +63,9 @@ input {
 #filterResults li {
   margin-bottom: 1rem;
 }
+
+@media (max-width: 480px) {
+  label {
+    font-size: 1.4rem;
+  }
+}
