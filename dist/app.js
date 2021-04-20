@@ -24,7 +24,6 @@ const calculate = () => {
     return;
   }
 
-  console.log('Inside calculate method');
   const birthYear = new Date().getFullYear() - number;
 
   const year = new Date(ageInAYear).getFullYear();
